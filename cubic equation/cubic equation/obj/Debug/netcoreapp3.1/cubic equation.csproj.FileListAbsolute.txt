@@ -11,3 +11,16 @@ C:\Users\HUAWEI\source\repos\cubic equation\cubic equation\obj\Debug\netcoreapp3
 C:\Users\HUAWEI\source\repos\cubic equation\cubic equation\obj\Debug\netcoreapp3.1\cubic equation.dll
 C:\Users\HUAWEI\source\repos\cubic equation\cubic equation\obj\Debug\netcoreapp3.1\cubic equation.pdb
 C:\Users\HUAWEI\source\repos\cubic equation\cubic equation\obj\Debug\netcoreapp3.1\cubic equation.genruntimeconfig.cache
+C:\Users\HUAWEI\OneDrive\Рабочий стол\ISP-labs\cubic equation\cubic equation\bin\Debug\netcoreapp3.1\cubic equation.exe
+C:\Users\HUAWEI\OneDrive\Рабочий стол\ISP-labs\cubic equation\cubic equation\bin\Debug\netcoreapp3.1\cubic equation.deps.json
+C:\Users\HUAWEI\OneDrive\Рабочий стол\ISP-labs\cubic equation\cubic equation\bin\Debug\netcoreapp3.1\cubic equation.runtimeconfig.json
+C:\Users\HUAWEI\OneDrive\Рабочий стол\ISP-labs\cubic equation\cubic equation\bin\Debug\netcoreapp3.1\cubic equation.runtimeconfig.dev.json
+C:\Users\HUAWEI\OneDrive\Рабочий стол\ISP-labs\cubic equation\cubic equation\bin\Debug\netcoreapp3.1\cubic equation.dll
+C:\Users\HUAWEI\OneDrive\Рабочий стол\ISP-labs\cubic equation\cubic equation\bin\Debug\netcoreapp3.1\cubic equation.pdb
+C:\Users\HUAWEI\OneDrive\Рабочий стол\ISP-labs\cubic equation\cubic equation\obj\Debug\netcoreapp3.1\cubic equation.csprojAssemblyReference.cache
+C:\Users\HUAWEI\OneDrive\Рабочий стол\ISP-labs\cubic equation\cubic equation\obj\Debug\netcoreapp3.1\cubic equation.AssemblyInfoInputs.cache
+C:\Users\HUAWEI\OneDrive\Рабочий стол\ISP-labs\cubic equation\cubic equation\obj\Debug\netcoreapp3.1\cubic equation.AssemblyInfo.cs
+C:\Users\HUAWEI\OneDrive\Рабочий стол\ISP-labs\cubic equation\cubic equation\obj\Debug\netcoreapp3.1\cubic equation.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\OneDrive\Рабочий стол\ISP-labs\cubic equation\cubic equation\obj\Debug\netcoreapp3.1\cubic equation.dll
+C:\Users\HUAWEI\OneDrive\Рабочий стол\ISP-labs\cubic equation\cubic equation\obj\Debug\netcoreapp3.1\cubic equation.pdb
+C:\Users\HUAWEI\OneDrive\Рабочий стол\ISP-labs\cubic equation\cubic equation\obj\Debug\netcoreapp3.1\cubic equation.genruntimeconfig.cache

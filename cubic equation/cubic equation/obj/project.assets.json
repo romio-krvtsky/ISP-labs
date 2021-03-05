@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HUAWEI\\source\\repos\\cubic equation\\cubic equation\\cubic equation.csproj",
+      "projectUniqueName": "C:\\Users\\HUAWEI\\OneDrive\\Рабочий стол\\ISP-labs\\cubic equation\\cubic equation\\cubic equation.csproj",
       "projectName": "cubic equation",
-      "projectPath": "C:\\Users\\HUAWEI\\source\\repos\\cubic equation\\cubic equation\\cubic equation.csproj",
+      "projectPath": "C:\\Users\\HUAWEI\\OneDrive\\Рабочий стол\\ISP-labs\\cubic equation\\cubic equation\\cubic equation.csproj",
       "packagesPath": "C:\\Users\\HUAWEI\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HUAWEI\\source\\repos\\cubic equation\\cubic equation\\obj\\",
+      "outputPath": "C:\\Users\\HUAWEI\\OneDrive\\Рабочий стол\\ISP-labs\\cubic equation\\cubic equation\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HUAWEI\\AppData\\Roaming\\NuGet\\NuGet.Config",

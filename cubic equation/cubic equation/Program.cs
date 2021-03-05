@@ -5,6 +5,16 @@ namespace cubic_equation
 {
     class Program
     {
+        public static double ReadDouble()
+        {
+            double number;
+            while (!double.TryParse(Console.ReadLine(), out number))
+            {
+                Console.Write("Wrong format, enter the correct number.\n");
+            }
+            return number;
+        }
+
         static void Main(string[] args)
         {
             double a, b, c, d, p, q, D;
@@ -14,10 +24,10 @@ namespace cubic_equation
             Console.WriteLine("\t Solution of cubic equation");
             Console.WriteLine("\t General view:   ax^3 + bx^2 + cx + d = 0 ");
             //input of coefficients
-            Console.WriteLine("Enter a:"); a = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Enter b:"); b = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Enter c:"); c = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Enter d:"); d = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Enter a:"); a = ReadDouble();
+            Console.WriteLine("Enter b:"); b = ReadDouble();
+            Console.WriteLine("Enter c:"); c = ReadDouble();
+            Console.WriteLine("Enter d:"); d = ReadDouble();
             if (a == 0)
             {
                 Console.WriteLine("Error! This is not a cubic equation!");
@@ -32,7 +42,7 @@ namespace cubic_equation
                 //one more change of variable:
                 D = Math.Pow(p / 3, 3) + Math.Pow(q / 2, 2);
 
-                if (D == p)
+                if (D < 0)
                 { //triple angle cosine method
                     double pi = Math.PI;
                     double k = Math.Sqrt((-4 * p) / 3);
