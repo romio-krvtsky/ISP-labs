@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
@@ -5,4 +6,13 @@
       "C:\\Users\\HUAWEI\\.nuget\\packages"
     ]
   }
+=======
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\HUAWEI\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\HUAWEI\\.nuget\\packages"
+    ]
+  }
+>>>>>>> e22244a88eae17cbdd6196ddda69650de07f570a
 }

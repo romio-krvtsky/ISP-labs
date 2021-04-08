@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\HUAWEI\OneDrive\Рабочий стол\ISP-labs\lab3\myClass\myClass\bin\Debug\netcoreapp3.1\myClass.exe
 C:\Users\HUAWEI\OneDrive\Рабочий стол\ISP-labs\lab3\myClass\myClass\bin\Debug\netcoreapp3.1\myClass.deps.json
 C:\Users\HUAWEI\OneDrive\Рабочий стол\ISP-labs\lab3\myClass\myClass\bin\Debug\netcoreapp3.1\myClass.runtimeconfig.json
@@ -11,3 +12,18 @@ C:\Users\HUAWEI\OneDrive\Рабочий стол\ISP-labs\lab3\myClass\myClass\o
 C:\Users\HUAWEI\OneDrive\Рабочий стол\ISP-labs\lab3\myClass\myClass\obj\Debug\netcoreapp3.1\myClass.dll
 C:\Users\HUAWEI\OneDrive\Рабочий стол\ISP-labs\lab3\myClass\myClass\obj\Debug\netcoreapp3.1\myClass.pdb
 C:\Users\HUAWEI\OneDrive\Рабочий стол\ISP-labs\lab3\myClass\myClass\obj\Debug\netcoreapp3.1\myClass.genruntimeconfig.cache
+=======
+C:\Users\HUAWEI\OneDrive\Рабочий стол\ISP-labs\lab3\myClass\myClass\bin\Debug\netcoreapp3.1\myClass.exe
+C:\Users\HUAWEI\OneDrive\Рабочий стол\ISP-labs\lab3\myClass\myClass\bin\Debug\netcoreapp3.1\myClass.deps.json
+C:\Users\HUAWEI\OneDrive\Рабочий стол\ISP-labs\lab3\myClass\myClass\bin\Debug\netcoreapp3.1\myClass.runtimeconfig.json
+C:\Users\HUAWEI\OneDrive\Рабочий стол\ISP-labs\lab3\myClass\myClass\bin\Debug\netcoreapp3.1\myClass.runtimeconfig.dev.json
+C:\Users\HUAWEI\OneDrive\Рабочий стол\ISP-labs\lab3\myClass\myClass\bin\Debug\netcoreapp3.1\myClass.dll
+C:\Users\HUAWEI\OneDrive\Рабочий стол\ISP-labs\lab3\myClass\myClass\bin\Debug\netcoreapp3.1\myClass.pdb
+C:\Users\HUAWEI\OneDrive\Рабочий стол\ISP-labs\lab3\myClass\myClass\obj\Debug\netcoreapp3.1\myClass.csprojAssemblyReference.cache
+C:\Users\HUAWEI\OneDrive\Рабочий стол\ISP-labs\lab3\myClass\myClass\obj\Debug\netcoreapp3.1\myClass.AssemblyInfoInputs.cache
+C:\Users\HUAWEI\OneDrive\Рабочий стол\ISP-labs\lab3\myClass\myClass\obj\Debug\netcoreapp3.1\myClass.AssemblyInfo.cs
+C:\Users\HUAWEI\OneDrive\Рабочий стол\ISP-labs\lab3\myClass\myClass\obj\Debug\netcoreapp3.1\myClass.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\OneDrive\Рабочий стол\ISP-labs\lab3\myClass\myClass\obj\Debug\netcoreapp3.1\myClass.dll
+C:\Users\HUAWEI\OneDrive\Рабочий стол\ISP-labs\lab3\myClass\myClass\obj\Debug\netcoreapp3.1\myClass.pdb
+C:\Users\HUAWEI\OneDrive\Рабочий стол\ISP-labs\lab3\myClass\myClass\obj\Debug\netcoreapp3.1\myClass.genruntimeconfig.cache
+>>>>>>> e22244a88eae17cbdd6196ddda69650de07f570a
