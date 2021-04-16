@@ -5,7 +5,7 @@ using System.Text;
 namespace MyClass2._0
 {
 
-    public class Human
+    abstract class Human
     {
         public enum Sexs
         {
