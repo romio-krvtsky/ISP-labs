@@ -17,18 +17,30 @@ namespace MyClass2._0
         public string Speciality { get; set; }
         public int Group { get; set; }
         public AcademicPermonances AcademicPerformance { get; set; }
+
+        public bool WillBeDeducted()
+        {
+            return (this.AcademicPerformance == AcademicPermonances.awful);
+        }
+
         public bool IsHeadman(string answer)
         {
             return (answer == "yes");
         }
-        public override void info()
+        public override void Info()
         {
-            base.info();
-            if (IsHeadman(answer))
+            base.Info();
+            if (IsHeadman(Answer))
             {
                 Console.WriteLine("Also he(she) is a Headman of the group!");
             }
+            if (WillBeDeducted())
+            {
+                Console.Write("Unfortunately ");
+                Console.Write(value: Name);
+                Console.WriteLine(" will be deducted because of awful academic perfomance.");
+            }
         }
-        public string answer { get; set; }
+        public string Answer { get; set; }
     }
 }

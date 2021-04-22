@@ -6,18 +6,31 @@ namespace MyClass2._0
     {
         static void Main(string[] args)
         {
-            StudentOfSpeciality Vasya = new StudentOfSpeciality();
-            Vasya.Race = Human.Races.Caucasian;
-            Console.WriteLine(Vasya.Race);
-            Vasya.AcademicPerformance = StudentOfSpeciality.AcademicPermonances.average;
-            Console.WriteLine(Vasya.AcademicPerformance);
-            Vasya.Age = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine(Vasya.Age);
+            StudentOfSpeciality Pers1 = new StudentOfSpeciality() 
+            {
+                Name = "Roman",
+                University = Student.Universities.BSUIR,
+                Race = Human.Races.Caucasian,
+                AcademicPerformance = StudentOfSpeciality.AcademicPermonances.average,
+                Age = 18,
+            };
+            Console.WriteLine(Pers1.Race);
+            Console.WriteLine(Pers1.AcademicPerformance);
+            Console.WriteLine(Pers1.Age);
 
-            Vasya.info();
-            Vasya.answer = "yes";
-            Vasya.IsHeadman(Vasya.answer);
-            Vasya.info();
+            Pers1.Info();
+            Console.WriteLine("Are you a Headman? (yes/no)");         
+            Pers1.IsHeadman(Pers1.Answer = Console.ReadLine());
+            Pers1.Info();
+
+            StudentOfSpeciality Pers2 = new StudentOfSpeciality()
+            {
+                Name = "Lyoha",
+                University = Student.Universities.BNTU,
+                AcademicPerformance = StudentOfSpeciality.AcademicPermonances.awful
+            };
+            Pers2.Info();
         }
     }
 }
+

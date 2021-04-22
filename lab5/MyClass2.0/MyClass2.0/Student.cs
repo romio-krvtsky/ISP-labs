@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace MyClass2._0
 {
@@ -23,9 +21,11 @@ namespace MyClass2._0
         public Universities University { get; set; }
         public string Faculty { get; set; }
         public int YearOfEntering { get; set; }
-        public virtual void info()
+        public override void Info()
         {
-            Console.Write("is a student!!");
+            Console.Write(value: Name);
+            Console.Write(" is a student of ");
+            Console.WriteLine(value: University);
         }
     }
 }

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HUAWEI\\source\\repos\\MyClass2.0\\MyClass2.0\\MyClass2.0.csproj",
+      "projectUniqueName": "C:\\Users\\HUAWEI\\OneDrive\\Рабочий стол\\ISP-labs\\lab5\\MyClass2.0\\MyClass2.0\\MyClass2.0.csproj",
       "projectName": "MyClass2.0",
-      "projectPath": "C:\\Users\\HUAWEI\\source\\repos\\MyClass2.0\\MyClass2.0\\MyClass2.0.csproj",
+      "projectPath": "C:\\Users\\HUAWEI\\OneDrive\\Рабочий стол\\ISP-labs\\lab5\\MyClass2.0\\MyClass2.0\\MyClass2.0.csproj",
       "packagesPath": "C:\\Users\\HUAWEI\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HUAWEI\\source\\repos\\MyClass2.0\\MyClass2.0\\obj\\",
+      "outputPath": "C:\\Users\\HUAWEI\\OneDrive\\Рабочий стол\\ISP-labs\\lab5\\MyClass2.0\\MyClass2.0\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HUAWEI\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

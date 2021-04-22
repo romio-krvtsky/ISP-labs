@@ -108,5 +108,6 @@ namespace MyClass2._0
         public Races Race { get; set; }
         public HairColor Hair { get; set; }
         public NativeCities City { get; set; }
+        public virtual void Info() => Console.WriteLine("I'm a human!");
     }
 }
