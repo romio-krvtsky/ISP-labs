@@ -1,11 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
+
 
 namespace MyClass2._0
 {
     sealed class StudentOfSpeciality : Student
     {
+
         public enum AcademicPermonances
         {
             undefined,
