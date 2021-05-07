@@ -37,9 +37,8 @@ namespace MyClass2._0
             Console.WriteLine("--------------------------------------------");
 
             Human hum = new Student();
-            Student stud = new StudentOfSpeciality();
             hum.Info();
-            stud.Info();
+
         }
     }
 }
