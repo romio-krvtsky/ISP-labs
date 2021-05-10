@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HUAWEI\\OneDrive\\Рабочий стол\\ISP-labs\\lab8\\MyClass4.0\\MyClass2.0\\MyClass2.0.csproj": {}
+    "C:\\Users\\HUAWEI\\source\\repos\\fraction\\fraction.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HUAWEI\\OneDrive\\Рабочий стол\\ISP-labs\\lab8\\MyClass4.0\\MyClass2.0\\MyClass2.0.csproj": {
+    "C:\\Users\\HUAWEI\\source\\repos\\fraction\\fraction.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HUAWEI\\OneDrive\\Рабочий стол\\ISP-labs\\lab8\\MyClass4.0\\MyClass2.0\\MyClass2.0.csproj",
-        "projectName": "MyClass2.0",
-        "projectPath": "C:\\Users\\HUAWEI\\OneDrive\\Рабочий стол\\ISP-labs\\lab8\\MyClass4.0\\MyClass2.0\\MyClass2.0.csproj",
+        "projectUniqueName": "C:\\Users\\HUAWEI\\source\\repos\\fraction\\fraction.csproj",
+        "projectName": "fraction",
+        "projectPath": "C:\\Users\\HUAWEI\\source\\repos\\fraction\\fraction.csproj",
         "packagesPath": "C:\\Users\\HUAWEI\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HUAWEI\\OneDrive\\Рабочий стол\\ISP-labs\\lab8\\MyClass4.0\\MyClass2.0\\obj\\",
+        "outputPath": "C:\\Users\\HUAWEI\\source\\repos\\fraction\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HUAWEI\\AppData\\Roaming\\NuGet\\NuGet.Config",

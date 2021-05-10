@@ -1,0 +1,13 @@
+C:\Users\HUAWEI\source\repos\fraction\bin\Debug\netcoreapp3.1\fraction.exe
+C:\Users\HUAWEI\source\repos\fraction\bin\Debug\netcoreapp3.1\fraction.deps.json
+C:\Users\HUAWEI\source\repos\fraction\bin\Debug\netcoreapp3.1\fraction.runtimeconfig.json
+C:\Users\HUAWEI\source\repos\fraction\bin\Debug\netcoreapp3.1\fraction.runtimeconfig.dev.json
+C:\Users\HUAWEI\source\repos\fraction\bin\Debug\netcoreapp3.1\fraction.dll
+C:\Users\HUAWEI\source\repos\fraction\bin\Debug\netcoreapp3.1\fraction.pdb
+C:\Users\HUAWEI\source\repos\fraction\obj\Debug\netcoreapp3.1\fraction.csprojAssemblyReference.cache
+C:\Users\HUAWEI\source\repos\fraction\obj\Debug\netcoreapp3.1\fraction.AssemblyInfoInputs.cache
+C:\Users\HUAWEI\source\repos\fraction\obj\Debug\netcoreapp3.1\fraction.AssemblyInfo.cs
+C:\Users\HUAWEI\source\repos\fraction\obj\Debug\netcoreapp3.1\fraction.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\source\repos\fraction\obj\Debug\netcoreapp3.1\fraction.dll
+C:\Users\HUAWEI\source\repos\fraction\obj\Debug\netcoreapp3.1\fraction.pdb
+C:\Users\HUAWEI\source\repos\fraction\obj\Debug\netcoreapp3.1\fraction.genruntimeconfig.cache
