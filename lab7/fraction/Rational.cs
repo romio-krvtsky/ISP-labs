@@ -4,25 +4,25 @@ namespace fraction
 {
     class Rational : IComparable<Rational>, IEquatable<Rational>
     {
-        private int _numerator;
-        private int _denominator;
+        private int numerator;
+        private int denominator;
 
         public int Numer
         {
-            get { return _numerator; }
+            get { return numerator; }
         }
 
         public int Denom
         {
-            get { return _denominator; }
+            get { return denominator; }
         }
 
-        public Rational(int numerator) : this(numerator, 1) { }
-        public Rational(int numerator, int denominator)
+        public Rational(int _numerator) : this(_numerator, 1) { }
+        public Rational(int _numerator, int _denominator)
         {
-            if (denominator == 0) throw new ArgumentNullException();
-            _numerator = numerator;
-            _denominator = denominator;
+            if (_denominator == 0) throw new ArgumentNullException();
+            numerator = _numerator;
+            denominator = _denominator;
         }
 
         //реализация методов интерфейсов
