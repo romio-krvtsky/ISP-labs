@@ -72,9 +72,35 @@ namespace MyClass2._0
                 Console.WriteLine("This student is getting Master degree.");
             }
 
+            HasSchoolarship?.Invoke(Schoolarship());
 
             Console.WriteLine("______________________________________________________\n\n");
         }
+
+        public string Schoolarship()
+        {
+            if (AcademicPerformance == AcademicPermonances.awful || AcademicPerformance == AcademicPermonances.bad)
+            {
+                return $"{Name} hasn't schoolarship. This stident should study better!";
+            }
+            else if (AcademicPerformance == AcademicPermonances.average)
+            {
+                return $"{Name} has minimal schoolarship(80 BYN).";
+            }
+            else if (AcademicPerformance == AcademicPermonances.good)
+            {
+                return $"{Name} has standart schoolarship(98 BYN)";
+            }
+            else if (AcademicPerformance == AcademicPermonances.excellent)
+            {
+                return $"{Name} has increased scroolarship(125 BYN)";
+            }
+            else return "no information about scholarship";
+        }
+
+        public delegate void StudentSchoolarship(string sclrsh);
+
+        public event StudentSchoolarship HasSchoolarship;
     }
 
     enum Universities

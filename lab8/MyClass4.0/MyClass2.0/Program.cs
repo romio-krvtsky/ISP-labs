@@ -49,8 +49,6 @@ namespace MyClass2._0
             ideal.UpDegree();
             ideal.Info();
 
-
-
             Human hum = new Student();
             hum.Info();
             
@@ -66,7 +64,7 @@ namespace MyClass2._0
             };
             boy.Info();
 
-          
+            
         }
     }
 }
