@@ -24,9 +24,9 @@ namespace ConsoleApp1.Entities
 
         public void TarrifInfo()
         {
-            Console.WriteLine($"Air Ticket Class: {AirTicketClass}");
-            Console.WriteLine($"Price: {Price} $");
-            Console.WriteLine($"To: {Direction}\n");
+            Console.WriteLine($"\tAir Ticket Class: {AirTicketClass}");
+            Console.WriteLine($"\tPrice: {Price} $");
+            Console.WriteLine($"\tTo: {Direction}\n");
         }
     }
 }

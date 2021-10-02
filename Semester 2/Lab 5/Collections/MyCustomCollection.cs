@@ -1,8 +1,7 @@
 using System;
-using System.CodeDom.Compiler;
-using System.Diagnostics;
+using ConsoleApp1.Interfaces;
 
-namespace ConsoleApp1
+namespace ConsoleApp1.Collections
 {
     public class MyCustomCollection<T> : ICustomCollection<T>
     {

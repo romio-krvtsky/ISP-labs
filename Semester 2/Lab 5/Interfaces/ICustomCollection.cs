@@ -1,6 +1,5 @@
-using System.Runtime.InteropServices.ComTypes;
 
-namespace ConsoleApp1
+namespace ConsoleApp1.Interfaces
 {
     public interface ICustomCollection<T>
     {

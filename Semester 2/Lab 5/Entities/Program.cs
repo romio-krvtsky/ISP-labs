@@ -1,54 +1,32 @@
-﻿using System;
-using System.Drawing;
-using ConsoleApp1.Entities;
-
-namespace ConsoleApp1
+﻿
+namespace ConsoleApp1.Entities
 {
     class Program
     {
         static void Main(string[] args)
         {
-            /* test of my custom collection
-            var lst = new MyCustomCollection<int>();
-            for (int i = 0; i < 30; i += 5)
-            {
-                lst.Add(i);
-            }
-            lst.Print();
-            Console.WriteLine($"\nSize = {lst.Count}");
-            lst.Reset();
-            for (int i = 0; i < 4; ++i)
-            {
-                lst.Next();    
-            }
-            Console.WriteLine(lst.Current());
-            lst.Print();
-            Console.WriteLine(lst.RemoveCurrent());
-            Console.WriteLine($"\nSize = {lst.Count}");
-            lst.Print();
-            lst.Reset();
-            Console.WriteLine($"\n{lst.Current()}");
-            Console.WriteLine(lst[2]);
-            lst[4] = 213;
-            lst.Print();
-            */
+            //Creation of Airport Ticket Office
+            Tariff tar1 = new(100, "Warsaw", Tariff.AirTicketClasses.Ecomony);
+            Tariff tar2 = new(500, "Paris", Tariff.AirTicketClasses.Business);
+            Tariff tar3 = new(1000, "Kyiv", Tariff.AirTicketClasses.First);
+            AirportTicketOffice.AddTariff(tar1,tar2,tar3);
             
-            //Creation of airport ticket office
-            Passenger pass1 = new("Neymar", "JR", Passenger.Sexs.Male);
-            pass1.InputPassportData();
-            pass1.Order(135,"Paris",Tariff.AirTicketClasses.Business);
-            pass1.Order(155, "LA", Tariff.AirTicketClasses.Ecomony);
-            pass1.Order(500, "Kyiv", Tariff.AirTicketClasses.First);
-            pass1.PersonalTotalSum();
+            var pers1 = new Passenger("Neymar", "Jr");
+            pers1.InputPassportData();
+            var pers2 = new Passenger("Volodymyr", "Zelensky");
+            pers2.InputPassportData();
+            var pers3 = new Passenger("Baba", "Valya");
+            pers3.InputPassportData();
 
-            Passenger pass2 = new("Jessica", "Alba", Passenger.Sexs.Female);
-            pass2.InputPassportData();
-            pass2.Order(120,"Warsaw",Tariff.AirTicketClasses.Ecomony);
-            pass2.Order(1000,"Lisbon",Tariff.AirTicketClasses.Business);
-            pass2.PersonalTotalSum();
+            AirportTicketOffice.AddPassenger(pers1, pers2, pers3);
+            AirportTicketOffice.AmountOfTarrifs();
+            pers1.Order(tar1,tar2,tar3);
+            pers2.Order(tar1,tar3);
+            pers3.Order(tar1);
             
             AirportTicketOffice.AmountOfPassengers();
             AirportTicketOffice.Profit();
+
         }
     }
 }

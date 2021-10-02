@@ -1,4 +1,5 @@
 using System;
+using ConsoleApp1.Collections;
 
 namespace ConsoleApp1.Entities
 {
@@ -6,22 +7,13 @@ namespace ConsoleApp1.Entities
     {
         private string Name;
         private string Surname;
-        private Sexs Sex;
         private string PassportNumber { get; set; }
         private MyCustomCollection<Tariff> Orders = new();
 
-        public enum Sexs
-        {
-            Undefined,
-            Male,
-            Female
-        }
-
-        public Passenger(string n, string sn, Sexs sex)
+        public Passenger(string n, string sn)
         {
             Name = n;
             Surname = sn;
-            Sex = sex;
         }
 
         public void InputPassportData()
@@ -29,28 +21,33 @@ namespace ConsoleApp1.Entities
             Console.WriteLine("Enter passport number of {0} {1}:", Name, Surname);
             var num = Console.ReadLine();
             PassportNumber = num;
-            AirportTicketOffice.ClientBase.Add(this);
         }
 
         private void GetPassangerInfo()
         {
-            Console.WriteLine($"Order {Orders.Count} of {Name} {Surname}");
-            Console.WriteLine($"Sex: {Sex}");
+            Console.WriteLine($"{Orders.Count} orders  of {Name} {Surname}:");
             Console.WriteLine($"Passport Number: {PassportNumber}");
-
         }
 
-        public void Order(uint pr, string dir, Tariff.AirTicketClasses airTicketClass)
+        public void Order(params Tariff[] ticket)
         {
             if (PassportNumber == null)
             {
                 throw new Exception("Person can't order the ticket without passport data!!");
             }
-            Tariff ticket = new(pr, dir, airTicketClass);
-            Orders.Add(ticket);
+
+            for (int i = 0; i < ticket.Length; ++i)
+            {
+                Orders.Add(ticket[i]);
+            }
+
             GetPassangerInfo();
-            ticket.TarrifInfo(); 
-            
+            for (int i = 0; i < ticket.Length; ++i)
+            {
+                Console.WriteLine("\nTicket {0}", i+1);
+                ticket[i].TarrifInfo();
+            }
+
         }
 
         public uint GetAmountOfTickets()
@@ -60,16 +57,14 @@ namespace ConsoleApp1.Entities
 
         public uint PersonalTotalSum()
         {
-            uint sum=0;
-            for (int i=0; i < this.GetAmountOfTickets(); ++i)
+            uint sum = 0;
+            for (int i = 0; i < GetAmountOfTickets(); ++i)
             {
                 sum += Orders[i].Price;
-                AirportTicketOffice.SoldTickets.Add(Orders[i].Price);
             }
+
             Console.WriteLine($"\n\tTotal sum for {Name}'s {Surname} {GetAmountOfTickets()} orders: {sum} $");
             return sum;
         }
-
-
     }
 }
