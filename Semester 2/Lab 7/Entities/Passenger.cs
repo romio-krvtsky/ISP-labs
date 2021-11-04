@@ -1,13 +1,12 @@
 using System;
 using System.Collections.Generic;
-using ConsoleApp1.Entities;
 using System.Linq;
 namespace Lab7.Entities
 {
     public class Passenger
     {
-        private string Name;
-        private string Surname;
+        public string Name { get; private set; }
+        public string Surname { get; private set; }
         private string PassportNumber { get; set; }
         private List<Tariff> Orders = new();
 
@@ -19,16 +18,7 @@ namespace Lab7.Entities
             Name = n;
             Surname = sn;
         }
-
-        public string GetName()
-        {
-            return Name;
-        }
         
-        public string GetSurname()
-        {
-            return Surname;
-        }
         public void InputPassportData()
         {
             Console.WriteLine("Enter passport number of {0} {1}:", Name, Surname);
@@ -38,8 +28,8 @@ namespace Lab7.Entities
 
         public IEnumerable<(string, long)> GetEachDirectionWithSpentSum()
         {
-            var sortedOrders = Orders.GroupBy(order => order.GetDirection())
-                .Select(group => (group.Key, group.Sum(or => or.GetPrice()) ) )
+            var sortedOrders = Orders.GroupBy(order => order.Direction)
+                .Select(group => (group.Key, group.Sum(or => or.Price) ) )
                 .ToList();
             return sortedOrders;
         }
@@ -81,7 +71,7 @@ namespace Lab7.Entities
             long sum = 0;
             for (int i = 0; i < GetAmountOfTickets(); ++i)
             {
-                sum += Orders[i].GetPrice();
+                sum += Orders[i].Price;
             }
             return sum;
         }

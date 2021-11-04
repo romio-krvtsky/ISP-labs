@@ -1,10 +1,9 @@
 ﻿
 using System;
-using ConsoleApp1.Entities;
 
 namespace Lab7.Entities
 {
-    class Program
+    static class Program
     {
         static void Main(string[] args)
         {

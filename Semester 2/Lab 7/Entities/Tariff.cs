@@ -1,24 +1,14 @@
 using System;
 
-namespace ConsoleApp1.Entities
+namespace Lab7.Entities
 {
     public class Tariff
     {
-        private uint Price { get; set; }
+        public uint Price { get; private set; }
+        public string Direction { get; private set; }
+        private AirTicketClasses AirTicketClass { get; }
 
-        private string Direction { get; set; }
-        public AirTicketClasses AirTicketClass { get; }
 
-        public uint GetPrice()
-        {
-            return Price;
-        }
-
-        public string GetDirection()
-        {
-            return Direction;
-        }
-        
         public enum AirTicketClasses
         {
             First,
