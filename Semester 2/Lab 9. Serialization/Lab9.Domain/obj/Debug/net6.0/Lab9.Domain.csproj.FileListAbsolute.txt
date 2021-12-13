@@ -1,0 +1,12 @@
+D:\JetBrains\Projects\C#Projects\Lab9\Lab9.Domain\bin\Debug\net6.0\Lab9.Domain.deps.json
+D:\JetBrains\Projects\C#Projects\Lab9\Lab9.Domain\bin\Debug\net6.0\Lab9.Domain.dll
+D:\JetBrains\Projects\C#Projects\Lab9\Lab9.Domain\bin\Debug\net6.0\ref\Lab9.Domain.dll
+D:\JetBrains\Projects\C#Projects\Lab9\Lab9.Domain\bin\Debug\net6.0\Lab9.Domain.pdb
+D:\JetBrains\Projects\C#Projects\Lab9\Lab9.Domain\obj\Debug\net6.0\Lab9.Domain.csproj.AssemblyReference.cache
+D:\JetBrains\Projects\C#Projects\Lab9\Lab9.Domain\obj\Debug\net6.0\Lab9.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\JetBrains\Projects\C#Projects\Lab9\Lab9.Domain\obj\Debug\net6.0\Lab9.Domain.AssemblyInfoInputs.cache
+D:\JetBrains\Projects\C#Projects\Lab9\Lab9.Domain\obj\Debug\net6.0\Lab9.Domain.AssemblyInfo.cs
+D:\JetBrains\Projects\C#Projects\Lab9\Lab9.Domain\obj\Debug\net6.0\Lab9.Domain.csproj.CoreCompileInputs.cache
+D:\JetBrains\Projects\C#Projects\Lab9\Lab9.Domain\obj\Debug\net6.0\Lab9.Domain.dll
+D:\JetBrains\Projects\C#Projects\Lab9\Lab9.Domain\obj\Debug\net6.0\ref\Lab9.Domain.dll
+D:\JetBrains\Projects\C#Projects\Lab9\Lab9.Domain\obj\Debug\net6.0\Lab9.Domain.pdb

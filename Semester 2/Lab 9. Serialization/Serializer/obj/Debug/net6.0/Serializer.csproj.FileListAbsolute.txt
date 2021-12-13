@@ -1,0 +1,15 @@
+D:\JetBrains\Projects\C#Projects\Lab9\Serializer\bin\Debug\net6.0\Serializer.deps.json
+D:\JetBrains\Projects\C#Projects\Lab9\Serializer\bin\Debug\net6.0\Serializer.dll
+D:\JetBrains\Projects\C#Projects\Lab9\Serializer\bin\Debug\net6.0\ref\Serializer.dll
+D:\JetBrains\Projects\C#Projects\Lab9\Serializer\bin\Debug\net6.0\Serializer.pdb
+D:\JetBrains\Projects\C#Projects\Lab9\Serializer\bin\Debug\net6.0\Lab9.Domain.dll
+D:\JetBrains\Projects\C#Projects\Lab9\Serializer\bin\Debug\net6.0\Lab9.Domain.pdb
+D:\JetBrains\Projects\C#Projects\Lab9\Serializer\obj\Debug\net6.0\Serializer.csproj.AssemblyReference.cache
+D:\JetBrains\Projects\C#Projects\Lab9\Serializer\obj\Debug\net6.0\Serializer.GeneratedMSBuildEditorConfig.editorconfig
+D:\JetBrains\Projects\C#Projects\Lab9\Serializer\obj\Debug\net6.0\Serializer.AssemblyInfoInputs.cache
+D:\JetBrains\Projects\C#Projects\Lab9\Serializer\obj\Debug\net6.0\Serializer.AssemblyInfo.cs
+D:\JetBrains\Projects\C#Projects\Lab9\Serializer\obj\Debug\net6.0\Serializer.csproj.CoreCompileInputs.cache
+D:\JetBrains\Projects\C#Projects\Lab9\Serializer\obj\Debug\net6.0\Serializer.csproj.CopyComplete
+D:\JetBrains\Projects\C#Projects\Lab9\Serializer\obj\Debug\net6.0\Serializer.dll
+D:\JetBrains\Projects\C#Projects\Lab9\Serializer\obj\Debug\net6.0\ref\Serializer.dll
+D:\JetBrains\Projects\C#Projects\Lab9\Serializer\obj\Debug\net6.0\Serializer.pdb
