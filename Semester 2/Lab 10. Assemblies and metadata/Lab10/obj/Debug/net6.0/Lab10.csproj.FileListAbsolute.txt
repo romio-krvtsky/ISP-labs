@@ -1,0 +1,17 @@
+D:\JetBrains\Projects\C#Projects\Lab10\Lab10\bin\Debug\net6.0\Lab10.exe
+D:\JetBrains\Projects\C#Projects\Lab10\Lab10\bin\Debug\net6.0\Lab10.deps.json
+D:\JetBrains\Projects\C#Projects\Lab10\Lab10\bin\Debug\net6.0\Lab10.runtimeconfig.json
+D:\JetBrains\Projects\C#Projects\Lab10\Lab10\bin\Debug\net6.0\Lab10.dll
+D:\JetBrains\Projects\C#Projects\Lab10\Lab10\bin\Debug\net6.0\ref\Lab10.dll
+D:\JetBrains\Projects\C#Projects\Lab10\Lab10\bin\Debug\net6.0\Lab10.pdb
+D:\JetBrains\Projects\C#Projects\Lab10\Lab10\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\JetBrains\Projects\C#Projects\Lab10\Lab10\obj\Debug\net6.0\Lab10.csproj.AssemblyReference.cache
+D:\JetBrains\Projects\C#Projects\Lab10\Lab10\obj\Debug\net6.0\Lab10.GeneratedMSBuildEditorConfig.editorconfig
+D:\JetBrains\Projects\C#Projects\Lab10\Lab10\obj\Debug\net6.0\Lab10.AssemblyInfoInputs.cache
+D:\JetBrains\Projects\C#Projects\Lab10\Lab10\obj\Debug\net6.0\Lab10.AssemblyInfo.cs
+D:\JetBrains\Projects\C#Projects\Lab10\Lab10\obj\Debug\net6.0\Lab10.csproj.CoreCompileInputs.cache
+D:\JetBrains\Projects\C#Projects\Lab10\Lab10\obj\Debug\net6.0\Lab10.csproj.CopyComplete
+D:\JetBrains\Projects\C#Projects\Lab10\Lab10\obj\Debug\net6.0\Lab10.dll
+D:\JetBrains\Projects\C#Projects\Lab10\Lab10\obj\Debug\net6.0\ref\Lab10.dll
+D:\JetBrains\Projects\C#Projects\Lab10\Lab10\obj\Debug\net6.0\Lab10.pdb
+D:\JetBrains\Projects\C#Projects\Lab10\Lab10\obj\Debug\net6.0\Lab10.genruntimeconfig.cache
