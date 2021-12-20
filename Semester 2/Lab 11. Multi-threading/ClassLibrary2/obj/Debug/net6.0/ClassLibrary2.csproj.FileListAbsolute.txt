@@ -1,0 +1,12 @@
+D:\JetBrains\Projects\C#Projects\Lab11\ClassLibrary2\bin\Debug\net6.0\ClassLibrary2.deps.json
+D:\JetBrains\Projects\C#Projects\Lab11\ClassLibrary2\bin\Debug\net6.0\ClassLibrary2.dll
+D:\JetBrains\Projects\C#Projects\Lab11\ClassLibrary2\bin\Debug\net6.0\ref\ClassLibrary2.dll
+D:\JetBrains\Projects\C#Projects\Lab11\ClassLibrary2\bin\Debug\net6.0\ClassLibrary2.pdb
+D:\JetBrains\Projects\C#Projects\Lab11\ClassLibrary2\obj\Debug\net6.0\ClassLibrary2.csproj.AssemblyReference.cache
+D:\JetBrains\Projects\C#Projects\Lab11\ClassLibrary2\obj\Debug\net6.0\ClassLibrary2.GeneratedMSBuildEditorConfig.editorconfig
+D:\JetBrains\Projects\C#Projects\Lab11\ClassLibrary2\obj\Debug\net6.0\ClassLibrary2.AssemblyInfoInputs.cache
+D:\JetBrains\Projects\C#Projects\Lab11\ClassLibrary2\obj\Debug\net6.0\ClassLibrary2.AssemblyInfo.cs
+D:\JetBrains\Projects\C#Projects\Lab11\ClassLibrary2\obj\Debug\net6.0\ClassLibrary2.csproj.CoreCompileInputs.cache
+D:\JetBrains\Projects\C#Projects\Lab11\ClassLibrary2\obj\Debug\net6.0\ClassLibrary2.dll
+D:\JetBrains\Projects\C#Projects\Lab11\ClassLibrary2\obj\Debug\net6.0\ref\ClassLibrary2.dll
+D:\JetBrains\Projects\C#Projects\Lab11\ClassLibrary2\obj\Debug\net6.0\ClassLibrary2.pdb

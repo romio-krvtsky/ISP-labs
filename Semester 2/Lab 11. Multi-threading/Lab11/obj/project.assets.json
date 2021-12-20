@@ -1,0 +1,107 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "ClassLibrary1/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ClassLibrary1.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClassLibrary1.dll": {}
+        }
+      },
+      "ClassLibrary2/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ClassLibrary2.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClassLibrary2.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ClassLibrary1/1.0.0": {
+      "type": "project",
+      "path": "../ClassLibrary1/ClassLibrary1.csproj",
+      "msbuildProject": "../ClassLibrary1/ClassLibrary1.csproj"
+    },
+    "ClassLibrary2/1.0.0": {
+      "type": "project",
+      "path": "../ClassLibrary2/ClassLibrary2.csproj",
+      "msbuildProject": "../ClassLibrary2/ClassLibrary2.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "ClassLibrary1 >= 1.0.0",
+      "ClassLibrary2 >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\HUAWEI\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\JetBrains\\Projects\\C#Projects\\Lab11\\Lab11\\Lab11.csproj",
+      "projectName": "Lab11",
+      "projectPath": "D:\\JetBrains\\Projects\\C#Projects\\Lab11\\Lab11\\Lab11.csproj",
+      "packagesPath": "C:\\Users\\HUAWEI\\.nuget\\packages\\",
+      "outputPath": "D:\\JetBrains\\Projects\\C#Projects\\Lab11\\Lab11\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\HUAWEI\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "D:\\JetBrains\\Projects\\C#Projects\\Lab11\\ClassLibrary1\\ClassLibrary1.csproj": {
+              "projectPath": "D:\\JetBrains\\Projects\\C#Projects\\Lab11\\ClassLibrary1\\ClassLibrary1.csproj"
+            },
+            "D:\\JetBrains\\Projects\\C#Projects\\Lab11\\ClassLibrary2\\ClassLibrary2.csproj": {
+              "projectPath": "D:\\JetBrains\\Projects\\C#Projects\\Lab11\\ClassLibrary2\\ClassLibrary2.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
